@@ -1,0 +1,212 @@
+/* Etiquetas */
+body {
+    background-color: rgb(121, 225, 225);
+}
+p {
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    max-width: 900px;
+    color: black;
+    margin: 30px auto;
+    border-style: dashed;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 8px 20px rgb(57, 57, 232);
+}
+section {
+    max-width: 900px;
+    color: black;
+    margin: 30px auto;
+    border-style: solid;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 8px 20px rgb(62, 74, 245);
+}
+img{
+    height: auto;
+    width: 250px;
+}
+h1{
+    color: rgb(4, 4, 117);
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+h3 {
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+}
+h6 {
+    margin-left: 50px;
+    text-align: left;
+}
+footer {
+   background-color: rgb(18, 18, 137);
+    color: aliceblue;
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 0;
+}
+/* Clases */
+.smoh {
+  padding-bottom: 10px;
+  color: #a0a0a0;
+  font-size: 15px;
+  text-decoration: underline;
+  font-style: oblique;
+  background-color: rgb(7, 7, 94);
+}
+.upchick {
+  text-align: justify;
+  display: flex;
+  padding: 100px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #cecece;
+}
+.quizas {
+    color: aliceblue;
+}
+.abc {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.sec {
+    padding-left: 300px;
+    padding-right: 400px;
+}
+.zy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 45px;
+}
+.xy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+/* Id´s */
+#cy {
+    padding-top: 60px;
+}
+#creeper {
+    height: 125px;
+    width: auto;
+}
+#ellogo {
+    height: 90px;
+    width: auto;
+}
+/* Navegación */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5%;
+    height: 100px;
+    background-color: cadetblue;
+}
+nav .logo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav .list {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .list li {
+    list-style: none;
+}
+nav .list a {
+    display: block;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav .list a:hover {
+    border-bottom: 4px solid #2416bb7f;
+}
+#toggle {
+    position: absolute;
+    top: -100px;
+}
+nav .icon-bars {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+nav .icon-bars .line {
+    width: 30px;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all .3 ease-in-out;
+}
+@media (max-width:768px) {
+    nav .logo {
+        float: none;
+        width: auto;
+        justify-content: center;
+    }
+    nav .list {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 100px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+    nav .list a{
+        font-size: 20px;
+    }
+    nav :checked ~ .list {
+        bottom: 0;
+    }
+    nav .icon-bars {
+        display: block;
+    }
+}
