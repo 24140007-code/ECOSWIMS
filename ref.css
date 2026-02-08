@@ -1,6 +1,9 @@
 /* Etiquetas */
 body {
-    background-color: rgb(121, 225, 225);
+    background-image: url('agua.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 li {
     list-style: square;
@@ -177,5 +180,6 @@ nav .icon-bars .line {
     }
 
 }
+
 
 
