@@ -1,7 +1,10 @@
 /* Etiquetas */
 body {
     text-align: justify;
-    background-color: rgb(121, 225, 225);
+    background-image: url('agua.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: 0px;
 }
 p {
@@ -275,4 +278,5 @@ nav .icon-bars .line {
     nav .icon-bars {
         display: block;
     }
+
 }
