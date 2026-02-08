@@ -1,6 +1,6 @@
 /* Etiquetas */
 body {
-    background-color: rgb(121, 225, 225);
+    background-image: url('agua.png');
 }
 p {
     font-size: 20px;
@@ -239,4 +239,5 @@ nav .icon-bars .line {
 .slider-box {
     width: 100%;
 }
+
 }
