@@ -1,6 +1,9 @@
 /* Etiquetas */
 body {
-    background-color: rgb(121, 225, 225);
+    background-image: url('agua2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 p {
     color: black;
@@ -209,4 +212,5 @@ nav .icon-bars .line {
     nav .icon-bars {
         display: block;
     }
+
 }
