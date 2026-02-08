@@ -1,6 +1,9 @@
 /* Etiquetas */
 body {
     background-image: url('agua.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 p {
     font-size: 20px;
@@ -241,4 +244,5 @@ nav .icon-bars .line {
 }
 
 }
+
 
