@@ -52,6 +52,7 @@ footer {
     margin-right: 250px;
     margin-bottom: 150px;
     margin-top: 65px;
+    color: rgb(92,213,114);
 }
 .upchick {
   text-align: justify;
@@ -89,11 +90,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: rgb(92,213,114);
 }
 .content {
       position: relative;
       z-index: 1;
-      color: white;
+       color: rgb(92,213,114);
       text-align: center;
       padding: 50px;
     }
@@ -275,6 +277,7 @@ nav .icon-bars .line {
 }
 
 }
+
 
 
 
