@@ -95,7 +95,7 @@ footer {
 .content {
       position: relative;
       z-index: 1;
-       color: rgb(92,213,114);
+       color: rgb(77,255,0);
       text-align: center;
       padding: 50px;
     }
@@ -277,6 +277,7 @@ nav .icon-bars .line {
 }
 
 }
+
 
 
 
